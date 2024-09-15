@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Header*/
+.header-access{
+    text-decoration: none;
+    color: #000;
+}
+
+/*Hero*/
+
+.welcome-img>img{
+    width: 300px;
+    height: 400px;
+}
+
+.personal-img>img{
+    width: 300px;
+    height: 400px;
+}
+
+/* Marquee Animation*/
+.marquee {
+    width: 35%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee-content>i{
+    width: 60px;
+    height: 60px;
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 6.5s linear infinite;
+}
+
+/*Projects*/
+
+.project-access>a{
+    text-decoration:none;
+
+}
+
+.project-access>a>img{
+    width: 20px;
+    height: 20px; 
+    padding-bottom: 5px; 
+}
+
+.project-access>a>i{
+    width: 16px;
+    height: 16px; 
+}
+
+
+
+
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
